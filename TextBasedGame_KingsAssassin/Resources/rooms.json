@@ -1,0 +1,209 @@
+{
+  "room_cell": {
+    "name": "Cell",
+    "story": "...You wake up on a cold cell floor. When you're trying to stand up you feel an intense pain at the back of your head.it feels like someone hit you with an enormous blunt object. After a while you feel strong enough to endure the pain and stand up.",
+    "description": "You are in your cell",
+    "dialogue": {
+      "choices": [ "LOOK" ]
+    },
+    "doors": [ "entrypoint_cell_wardenhall" ],
+    "objects": [ "object_dead_guard01", "object_bucket" ],
+    "inventory": {
+      "items": [ ],
+      "weapons": [],
+      "armor": [ ]
+    },
+    "livingentities": [ ]
+  },
+  "room_warden_hall": {
+    "name": "The warden hall",
+    "story": "You enter the warden hall and see it's completely empty. I better find something to defend myself and get the hell out of here before someone gets back. So my escape goes unnoticed",
+    "description": "You are in the wardens hall.",
+    "dialogue": {
+      "choices": [ "LOOK" ]
+    },
+    "doors": [ "entrypoint_cell_wardenhall", "entrypoint_wardenHall_courtyard", "entrypoint_wardenHall_storageroom", "entrypoint_wardenHall_secretpassage" ],
+    "objects": [ "object_wooden_desk", "object_bookcase", "object_chair", "object_flowerpot" ],
+    "inventory": {
+      "items": [ ],
+      "weapons": [],
+      "armor": [ ]
+    }
+  },
+  "room_secret_passage": {
+    "name": "Secret passage",
+    "story": "A secret passage, The castle probably has quite a bit of these. I wonder where this one will lead to.",
+    "description": "you are in the secret passage",
+    "dialogue": {
+      "choices": [ "LOOK" ]
+    },
+    "doors": [ "entrypoint_wardenHall_secretpassage", "entrypoint_secretpassage_staircasetower" ],
+    "objects": ["object_painting_of_drunken_monks"],
+    "inventory": {
+      "items": [ ]
+    }
+  },
+  "room_storage_room": {
+    "name": "Storage room",
+    "story": "Apparently the rats aren't the only ones who are hungry in this kingdom. It seems there isn't much left to store besides some old gear.",
+    "description": "you are in the wardens storage room",
+    "dialogue": {
+      "choices": [ "LOOK" ]
+    },
+    "doors": [ "entrypoint_wardenHall_storageroom" ],
+    "objects": ["object_dirty_old_weaponrack"],
+    "inventory": {
+      "items": []
+    },
+     "livingentities": [ "livingentity_rat","livingentity_rat" ]
+  },
+  "room_courtyard": {
+    "name": "The courtyard",
+    "story": "What the hell happened here? You look around and see the courtyard has turned into a massacre, bodies everywhere but not all of them are human. I should take a closer look",
+    "description": "You are in the courtyard",
+    "dialogue": {
+      "choices": [ "LOOK" ]
+    },
+    "doors": [ "entrypoint_wardenHall_courtyard", "entrypoint_courtyard_gardens", "entrypoint_courtyard_entrancehall" ],
+    "objects": ["object_dead_goblin01","object_dead_guard02","object_dead_child","object_dead_guard03","object_dead_guard04"], 
+    "inventory": {
+      "items": [ ]
+    }
+  },
+  "room_gardens": {
+    "name": "The gardens",
+    "story": "Well They sure are ruthless, They don't allow anyone to escape. Good thing I came prepared, let's look around to see what happened here.",
+    "description": "You are in the gardens",
+    "dialogue": {
+      "choices": [ "LOOK" ]
+    },
+    "doors": [ "entrypoint_courtyard_gardens" ],
+    "objects": ["object_dead_gardener","object_dead_goblin02","object_shed","object_berry_bush"],
+    "inventory": {
+      "items": [ ]
+    },
+     "livingentities": [ "livingentity_spear_goblin","livingentity_dual_wielding_goblin" ]
+  },
+  "room_entrance_hall": {
+    "name": "The entrance hall",
+    "story": "The goblins sure brought some muscle with these guys, I hope there's not many of the left.",
+    "description": "You are in the entrance hall",
+    "dialogue": {
+      "choices": [ "LOOK" ]
+    },
+    "doors": [ "entrypoint_courtyard_entrancehall", "entrypoint_entrancehall_greathall", "entrypoint_entrancehall_staircasetower" ],
+    "objects": ["object_dead_goblin_brawler01","object_dead_goblin_brawler02"],
+    "inventory": {
+      "items": [ ]
+    },
+    "livingentities": ["livingentity_brawler_goblin","livingentity_brawler_goblin" ]
+  },
+  "room_great_hall": {
+    "name": "The great hall",
+    "story": "You enter the great hall and see the guards who where off duty were killed as well. there are no weapons with them, they must have been caught by surprise.",
+    "description": "You are in the Great hall",
+    "dialogue": {
+      "choices": [ "LOOK" ]
+    },
+    "doors": [ "entrypoint_entrancehall_greathall", "entrypoint_greathall_kitchens" ],
+    "objects": ["object_long_wooden_table","object_bucket","object_flowers","object_dead_captain_guard"],
+    "inventory": {
+      "items": []
+    }
+  },
+  "room_kitchens": {
+    "name": "The kitchens", 
+    "story": "These guys must have been on guard duty good thing I made quick work of them. Let's see if we can snatch something tasteful here.",
+    "description": "You are in the kitchens",
+    "dialogue": {
+      "choices": [ "LOOK" ]
+    },
+    "doors": [ "entrypoint_greathall_kitchens" ],
+    "objects": ["object_wooden_table","object_furnace","object_cabinet"],
+    "inventory": {
+      "items": [ ]
+    },
+   "livingentities": ["livingentity_dual_wielding_goblin","livingentity_dual_wielding_goblin"]
+  },
+  "room_staircase_tower": {
+    "name": "The staircase tower",
+    "story": "The staircase seems deserted, I should make haste but which side do I go?",
+    "description": "You are in the staircase tower",
+    "dialogue": {
+      "choices": [ "LOOK" ]
+    },
+    "doors": [ "entrypoint_entrancehall_staircasetower", "entrypoint_secretpassage_staircasetower", "entrypoint_staircasetower_westwing", "entrypoint_staircasetower_eastwing" ],
+    "objects": ["object_painting_of_the_fat_lady","object_iron_knight","object_wooden_table"],
+    "inventory": {
+      "items": []
+    }
+  },
+  "room_west_wing": {
+    "name": "The west wing",
+    "story": "I guess these two were too scared to take on the wizard by themselves and tried to flee. However I happened to be in the way.",
+    "description": "You are in the west wing",
+    "dialogue": {
+      "choices": [ "LOOK" ]
+    },
+    "doors": [ "entrypoint_westwing_wizardtower", "entrypoint_staircasetower_westwing" ],
+    "inventory": {
+      "items": [ ]
+    },
+   "livingentities": ["livingentity_dual_wielding_goblin","livingentity_dual_wielding_goblin","livingentity_brawler_goblin"]
+  },
+  "room_wizard_tower": {
+    "name": "The wizard tower",
+    "story": "You enter the wizard tower and see a magical chest floating in the middle of the room. This is probably what the scroll meant.",
+    "description": "you are in the wizard tower",
+    "dialogue": {
+      "choices": [ "LOOK" ]
+    },
+    "doors": [ "entrypoint_westwing_wizardtower"],
+    "objects": ["object_magical_chest"],
+    "inventory": {
+      "items": [ ]
+    },
+    "livingentities": ["livingentity_rune_guardian"]
+  },
+  "room_east_wing": {
+    "name": "The east wing",
+    "story": "They keep getting stronger and stronger, I wonder what foes lay ahead but I can't falter now I am so close.",
+    "description": "You are in the east wing",
+    "dialogue": {
+      "choices": [ "LOOK" ]
+    },
+    "doors": [ "entrypoint_staircasetower_eastwing", "entrypoint_eastwing_royalquaters" ],
+    "objects": ["object_dead_servant01","object_dead_steward"],
+    "inventory": {
+      "items": []
+    },
+    "livingentities": ["livingentity_goblin_assassin","livingentity_goblin_assassin"]
+  },
+  "room_royal_quarters": {
+    "name": "The royal quarters",
+    "story": "The King's room is just up ahead, I am almost there. I hope I can make it in time.",
+    "description": "you are in the royal quarters",
+    "dialogue": {
+      "choices": [ "LOOK" ]
+    },
+    "doors": [ "entrypoint_eastwing_royalquaters", "entrypoint_royalquarters_kingsroom" ],
+    "objects": ["object_dead_servant02"],
+    "inventory": {
+      "items": []
+    }
+  },
+  "room_kings_room": {
+    "name": "The king's room",
+    "story": "It seems I was too late to rescue him. He wasn't a good king, maybe this kingdom can change now.",
+    "description": "you are in the kings room",
+    "dialogue": {
+      "choices": [ "LOOK" ]
+    },
+    "doors": [ "entrypoint_royalquarters_kingsroom" ],
+    "objects": ["object_dead_king"],
+    "inventory": {
+      "items": [ ]
+    },
+    "livingentities": ["livingentity_Kings_assassin"]
+  }
+}

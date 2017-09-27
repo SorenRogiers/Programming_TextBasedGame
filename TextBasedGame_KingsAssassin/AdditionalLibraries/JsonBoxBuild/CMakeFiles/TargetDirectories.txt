@@ -1,0 +1,5 @@
+D:/DAE/2DAE/Libraries/JsonBoxBuild/CMakeFiles/JsonBox.dir
+D:/DAE/2DAE/Libraries/JsonBoxBuild/CMakeFiles/example1.dir
+D:/DAE/2DAE/Libraries/JsonBoxBuild/CMakeFiles/INSTALL.dir
+D:/DAE/2DAE/Libraries/JsonBoxBuild/CMakeFiles/ALL_BUILD.dir
+D:/DAE/2DAE/Libraries/JsonBoxBuild/CMakeFiles/ZERO_CHECK.dir

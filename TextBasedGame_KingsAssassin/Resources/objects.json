@@ -1,0 +1,292 @@
+{
+  "object_dead_guard01": {
+    "name": "Dead guard",
+    "description": "It appears he died recently",
+    "inventory": {
+      "items": [
+        ["item_iron_key", 1],
+        ["item_fresh_apple", 2]
+      ]
+    }
+  },
+  "object_bucket": {
+    "name": "Empty bucket",
+    "description": "It's a wooden bucket.",
+    "inventory": {
+      "items": [
+      ]
+    }
+  },
+  "object_wooden_desk": {
+    "name": "Wooden desk",
+    "description": "This is the warden's desk",
+    "inventory": {
+      "items": [
+        ["item_letter", 1],
+        ["item_metal_figurine", 1]
+      ]
+    }
+  },
+  "object_bookcase": {
+    "name": "Old dirty bookcase",
+    "description":
+      "It seems the warden was quite the reader, it looks like there is something missing from the bookcase though.",
+    "inventory": {
+      "items": [
+      ]
+    }
+  },
+  "object_chair": {
+    "name": "Chair",
+    "description": "Just and old wooden chair, I sat there once then I got hit by something on my head",
+    "inventory": {
+      "items": [
+      ]
+    }
+  },
+  "object_flowerpot": {
+    "name": "Flower pot",
+    "description": "Looks like the warden let everything die even his flowers",
+    "inventory": {
+      "items": [
+      ]
+    }
+  },
+  "object_dirty_old_weaponrack": {
+    "name": "dirty old weaponrack",
+    "description": "An out of service weapon rack, still has some old weapons I see.",
+    "inventory": {
+      "items": [
+      ],
+      "weapons": [
+        ["weapon_dagger", 1]
+      ]
+    }
+  },
+  "object_dead_child": {
+    "name": "Dead child",
+    "description": "Not even a child was spared, Who could be responsible for such a tragedy?",
+    "inventory": {
+      "items": [
+        ["item_rune_of_power",1]
+      ]
+    }
+  },
+  "object_dead_goblin01": {
+    "name": "Dead Goblin",
+    "description": "A dead goblin? These guards were attacked by goblins, why on earth would they leave their mines.",
+    "inventory": {
+      "items": [ ]
+    }
+  },
+  "object_dead_goblin02": {
+    "name": "Dead Goblin",
+    "description": "This one had a bagpack with him, I should check it out maybe I can find something useful.",
+    "inventory": {
+      "items": [
+        [ "item_castle_keys", 1 ],
+        ["item_fresh_apple", 1]
+      ]
+    }
+  },
+  "object_dead_guard02": {
+    "name": "Dead guard(1)",
+    "description": "An arrow in the back. Looks like they got ambushed.",
+    "inventory": {
+      "items": [
+        [ "item_fresh_apple", 1 ]
+      ],
+      "weapons": [ ],
+      "armor": [
+        ["armor_leather",1]
+      ] 
+    }
+  },
+  "object_dead_guard03": {
+    "name": "Dead guard(2)",
+    "description": "Another one with an arrow in the back, they never stood a chance.",
+    "inventory": {
+      "items": [
+        [ "item_fresh_apple", 1 ]
+      ]
+    }
+  },
+  "object_dead_guard04": {
+    "name": "Dead guard(3)",
+    "description": "They messed this one up really good, seems like he put up quite the fight",
+    "inventory": {
+      "items": [ ]
+    }
+  },
+  "object_dead_gardener": {
+    "name": "Dead gardener",
+    "description": "At least the old man took one with him. Wait. He's wearing the royal sign on his chest he must have been an old guard or something. I wonder if he left something behind.",
+    "inventory": {
+      "items": [["item_meat_pie",1]]
+    }
+  },
+  "object_shed": {
+    "name": "Gardeners shed",
+    "description": "A small gardening shed, there are quite some of dozens spread over the gardens. Maybe I can find something to aid me here.",
+    "inventory": {
+      "items": [
+        [ "item_fresh_apple", 1 ]
+      ],
+      "weapons": [
+        [ "weapon_longsword", 1 ]
+      ],
+      "armor": [
+        [ "armor_old_iron_armor", 1 ]
+      ]
+    }
+  },
+  "object_berry_bush": {
+    "name": "Frostberry bush",
+    "description": "One of the rare treasures this garden has to offer, these berries are known for their restorative powers.",
+    "inventory": {
+      "items": [
+        [ "item_frost_berry", 3 ]
+      ]
+    }
+  },
+  "object_dead_goblin_brawler01": {
+    "name": "Dead goblin brawler(1)",
+    "description": "One of the toughest kind of goblins out there.",
+    "inventory": {
+      "items": [ ],
+      "weapons": [
+        [ "weapon_goblin_hammer", 1 ]
+      ] 
+    }
+  },
+  "object_dead_goblin_brawler02": {
+    "name": "Dead goblin brawler(2)",
+    "description": "These were defending the castle against possible intruders, I should search them.",
+    "inventory": {
+      "items": [
+        [ "item_folded_letter", 1 ],
+        [ "item_fresh_apple", 2 ]
+      ]
+    }
+  },
+  "object_long_wooden_table": {
+    "name": "Long wooden table",
+    "description": "A long wooden table where guards off duty eat.",
+    "inventory": {
+      "items": [ ]
+    }
+  },
+  "object_wooden_table": {
+    "name": "wooden table",
+    "description": "A wooden table.",
+    "inventory": {
+      "items": [ ]
+    }
+  },
+  "object_furnace": {
+    "name": "Furnace",
+    "description": "A stone furnace.",
+    "inventory": {
+      "items": [ ]
+    }
+  },
+  "object_cabinet": {
+    "name": "Cabinet",
+    "description": "A wooden cabinet, most likely used to store food",
+    "inventory": {
+      "items": [
+        [ "item_bread", 1 ],
+        [ "item_cooked_meat", 1 ]
+      ]
+    }
+  },
+  "object_flowers": {
+    "name": "Flowers",
+    "description": "Some freshly picked flowers to brigthen up the room.",
+    "inventory": {
+      "items": [
+      ]
+    }
+  },
+  "object_dead_captain_guard": {
+    "name": "Dead Captain of the guard",
+    "description": "Seems like the captain was no match for them either.",
+    "inventory": {
+      "items": [
+        [ "item_staircase_key", 1 ]
+      ],
+      "weapons": [ ],
+      "armor": [
+        [ "armor_steel_armor", 1 ]
+      ]
+    }
+  },
+  "object_painting_of_the_fat_lady": {
+    "name": "Painting of the fat lady",
+    "description": "After the Fat Lady died, a painting depicting her was hung at the castle. She was well known for her indulgence in good food and drink, as well as a passion for 'tip-top security'",
+    "inventory": {
+      "items": [
+        [ "item_sealed_scroll", 1 ]
+      ]
+    }
+  },
+   "object_iron_knight": {
+    "name": "Iron knight",
+    "description": "An iron knight standing guard, there's probably no one inside the armor.",
+    "inventory": {
+      "items": []
+    }
+  },
+  "object_magical_chest": {
+    "name": "Magical chest",
+    "description": "A chest with runes engraved,there must be something valueable in this.",
+    "inventory": {
+      "items": [ ],
+      "weapons": [
+        [ "weapon_mystic_sword", 1 ]
+      ],
+      "armor": [
+        [ "armor_mystic_plate_armor", 1 ]
+      ]
+    }
+  },
+  "object_painting_of_drunken_monks": {
+    "name": "Painting of four druken monks",
+    "description": "Seems like there having a better time then I am at the moment.",
+    "inventory": {
+      "items": []
+    }
+  },
+  "object_dead_servant01": {
+    "name": "Dead servant",
+    "description": "He just got caught in the crossfire.",
+    "inventory": {
+      "items": [ ]
+    }
+  },
+  "object_dead_servant02": {
+    "name": "Dead servant(1)",
+    "description": "Wrong place at the wrong time.",
+    "inventory": {
+      "items": [ ]
+    }
+  },
+  "object_dead_steward": {
+    "name": "Dead steward",
+    "description": "Died serving the royal family.",
+    "inventory": {
+      "items": [
+        ["item_royal_key",1]
+      ]
+    }
+  },
+  "object_dead_king": {
+    "name": "Dead King",
+    "description": "The king is dead.",
+    "inventory": {
+      "items": [
+        ["item_wizard_letter",1]
+      ]
+    }
+  }
+}

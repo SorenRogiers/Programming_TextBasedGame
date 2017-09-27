@@ -1,0 +1,95 @@
+{ "item_iron_key": {
+		"name": "Iron Key",
+    "description": "A heavy iron key with a simple cut",
+    "edible": "false" 
+	},
+  "item_gold_coin": {
+    "name": "Gold Coin",
+    "description": "A small disc made of lustrous metal",
+    "edible": "false"
+  },
+  "item_fresh_apple": {
+    "name": "Fresh apple",
+    "description": "A freshly picked apple from the kitchens",
+    "edible": "true",
+    "healthrestore": 5
+  },
+  "item_metal_figurine": {
+    "name": "An old metal figure",
+    "description": "I wonder what this is for, I better put it back where it belongs.",
+    "edible": "false",
+    "healthrestore": 0
+  },
+  "item_castle_keys": {
+    "name": "Castle keys",
+    "description": "A set of iron keys.",
+    "edible": "false",
+    "healthrestore": 0
+  },
+  "item_rune_of_power": {
+    "name": "Rune of power",
+    "description": "This is what alot of wizards use to channel their power. This will come in handy at some point",
+    "edible": "false",
+    "healthrestore": 0
+  },
+  "item_royal_key": {
+    "name": "Royal key",
+    "description": "A golden key with the signature of the crown engraved on it.",
+    "edible": "false",
+    "healthrestore": 0
+  },
+  "item_letter": {
+    "name": "A fastly written letter",
+    "description": "The letter is really short and reads 'Tonight - full moon, we strike. No mistakes.'",
+    "edible": "false",
+    "healthrestore": 0
+  },
+  "item_meat_pie": {
+    "name": "Meat pie",
+    "description": "Freshly made meat pie.",
+    "edible": "true",
+    "healthrestore": 10
+  },
+  "item_frost_berry": {
+    "name": "Frost berry",
+    "description": "The bright skin of the berry is slightly sticky.",
+    "edible": "true",
+    "healthrestore": 20
+  },
+  "item_folded_letter": {
+    "name": "Folded letter",
+    "description": "The letter reads 'We're going ahead to the royal quarters, noone is allowed to enter or leave the castle alive.'",
+    "edible": "false",
+    "healthrestore": 0
+  },
+  "item_bread": {
+    "name": "White bread",
+    "description": "Nice crispy bread",
+    "edible": "true",
+    "healthrestore": 5
+  },
+  "item_cooked_meat": {
+    "name": "Cooked meat",
+    "description": "Mmm this looks tasty.",
+    "edible": "true",
+    "healthrestore": 10
+  },
+  "item_staircase_key": {
+    "name": "Staircase keys",
+    "description": "A key to unlock the doors to the staircase tower",
+    "edible": "false",
+    "healthrestore": 0
+  },
+  "item_sealed_scroll": {
+    "name": "Sealed scroll",
+    "description": "I took notice of your noble intentions adventurer. Open the wizard tower with the lost item and you'll find the power you need to defeat your foes.",
+    "edible": "false",
+    "healthrestore": 0
+  },
+  "item_wizard_letter": {
+    "name": "Magical letter",
+    "description": "As you noticed adventurer the king is dead, for the good of this kingdom this had to happen. Only a person with good intentions and a compassionate heart can be a ruler. It is time for you to take your rightful place,as king.",
+    "edible": "false",
+    "healthrestore": 0
+  }
+}

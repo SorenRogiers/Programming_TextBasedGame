@@ -1,0 +1,72 @@
+{
+  "livingentity_rat": {
+    "name": "Rat",
+    "hp": 3,
+    "friendly": "0",
+    "text": "The rat screeches",
+    "attackpower": 3,
+    "dodgechance": 0.015625,
+    "agility": 3,
+    "currentweapon": "weapon_rat_claw"
+  },
+  "livingentity_spear_goblin": {
+    "name": "Spear Goblin",
+    "hp": 4,
+    "friendly": "0",
+    "text": "",
+    "attackpower": 4,
+    "dodgechance": 0.015625,
+    "agility": 2,
+    "currentweapon": "weapon_goblin_spear"
+  },
+  "livingentity_dual_wielding_goblin": {
+    "name": "Dual wielding Goblin",
+    "hp": 4,
+    "friendly": "0",
+    "text": "",
+    "attackpower": 4,
+    "dodgechance": 0.015625,
+    "agility": 5,
+    "currentweapon": "weapon_goblin_dagger"
+  },
+  "livingentity_brawler_goblin": {
+    "name": "Strong brawler goblin",
+    "hp": 8,
+    "friendly": "0",
+    "text": "",
+    "attackpower": 5,
+    "dodgechance": 0.015625,
+    "agility": 4,
+    "currentweapon": "weapon_goblin_hammer"
+  },
+  "livingentity_rune_guardian": {
+    "name": "Rune Guardian",
+    "hp": 10,
+    "friendly": "0",
+    "text": "",
+    "attackpower": 7,
+    "dodgechance": 0.015625,
+    "agility": 4,
+    "currentweapon": "weapon_runed_sword"
+  },
+  "livingentity_goblin_assassin": {
+    "name": "Goblin assasin",
+    "hp": 5,
+    "friendly": "0",
+    "text": "",
+    "attackpower": 10,
+    "dodgechance": 0.015625,
+    "agility": 10,
+    "currentweapon": "weapon_goblin_dagger"
+  },
+   "livingentity_Kings_assassin": {
+    "name": "King's assasin",
+    "hp": 10,
+    "friendly": "0",
+    "text": "",
+    "attackpower": 12,
+    "dodgechance": 0.015625,
+    "agility": 12,
+    "currentweapon": "weapon_Assassins_blade"
+  },
+}

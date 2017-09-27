@@ -1,0 +1,18 @@
+{
+	"className" : "Wizard",
+	"hp" : 20,
+	"inventory" : {
+		"items" : [
+			[
+				"item_gold_coin",
+				5
+			],
+			[
+				"item_iron_key",
+				1
+			]
+		]
+	},
+	"max_hp" : 0,
+	"name" : "Saan"
+}

@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Game files">
+      <UniqueIdentifier>{94f917d5-8de5-483a-a828-f7a4dc09d905}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game files\Ingame Objects">
+      <UniqueIdentifier>{d60e391f-c388-4684-9985-1c00f3bc8b41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game files\Living entities">
+      <UniqueIdentifier>{1a90c318-6d13-4bab-8d70-0598d3305c3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game files\Area related">
+      <UniqueIdentifier>{86479aa9-95a9-46ca-a57a-842a9140e8db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Helpers &amp; managers">
+      <UniqueIdentifier>{cea6fb14-b721-4d10-b62b-479add9485eb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph.h">
+      <Filter>Header Files\Helpers &amp; managers</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonEntityManager.h">
+      <Filter>Header Files\Helpers &amp; managers</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonEntity.h">
+      <Filter>Header Files\Helpers &amp; managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Header Files\Game files\Ingame Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Armor.h">
+      <Filter>Header Files\Game files\Ingame Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Header Files\Game files\Ingame Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="LivingEntity.h">
+      <Filter>Header Files\Game files\Living entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Game files\Living entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects.h">
+      <Filter>Header Files\Game files\Ingame Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="EntryPoint.h">
+      <Filter>Header Files\Game files\Area related</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>Header Files\Game files\Area related</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>Header Files\Game files\Area related</Filter>
+    </ClInclude>
+    <ClInclude Include="Combat.h">
+      <Filter>Header Files\Game files\Area related</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Header Files\Game files\Area related</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEventHandler.h">
+      <Filter>Header Files\Game files\Area related</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\Game files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonEntityManager.cpp">
+      <Filter>Header Files\Helpers &amp; managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Header Files\Game files\Ingame Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Armor.cpp">
+      <Filter>Header Files\Game files\Ingame Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Header Files\Game files\Ingame Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects.cpp">
+      <Filter>Header Files\Game files\Ingame Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="LivingEntity.cpp">
+      <Filter>Header Files\Game files\Living entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Header Files\Game files\Living entities</Filter>
+    </ClCompile>
+    <ClCompile Include="EntryPoint.cpp">
+      <Filter>Header Files\Game files\Area related</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>Header Files\Game files\Area related</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>Header Files\Game files\Area related</Filter>
+    </ClCompile>
+    <ClCompile Include="Combat.cpp">
+      <Filter>Header Files\Game files\Area related</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>Header Files\Game files\Area related</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEventHandler.cpp">
+      <Filter>Header Files\Game files\Area related</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Header Files\Game files</Filter>
+    </ClCompile>
+    <ClCompile Include="AdditionalLibraries\JsonBox-master\src\Convert.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AdditionalLibraries\JsonBox-master\src\Escaper.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AdditionalLibraries\JsonBox-master\src\IndentCanceller.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AdditionalLibraries\JsonBox-master\src\Indenter.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AdditionalLibraries\JsonBox-master\src\JsonParsingError.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AdditionalLibraries\JsonBox-master\src\JsonWritingError.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AdditionalLibraries\JsonBox-master\src\SolidusEscaper.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AdditionalLibraries\JsonBox-master\src\Value.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

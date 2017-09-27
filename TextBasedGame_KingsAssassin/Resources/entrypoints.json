@@ -1,0 +1,122 @@
+{
+  "entrypoint_cell_wardenhall": {
+    "name": "Sturdy wooden door",
+    "description": "Seems like a good way to get out of here",
+    "description2": "This door will take me back to my cell." , 
+    "rooms": [ "room_cell", "room_warden_hall" ],
+    "locked": 1,
+    "key": "item_iron_key"
+  },
+  "entrypoint_wardenHall_storageroom": {
+    "name":  "Old wooden door",
+    "description": "You hear something scratching on the other side of the door,probably rats.",
+    "description2": "Guess this is the only way out of this room.",
+    "rooms": [ "room_warden_hall", "room_storage_room" ],
+    "locked": 1,
+    "key": "item_iron_key"
+  },
+  "entrypoint_wardenHall_secretpassage": {
+    "name": "Dusty bookcase",
+    "description": "An old bookcase covered in dust, except for this one spot. Looks like something is missing from this bookcase",
+    "description2": "I wonder if this will let me exit the secret passage.",
+    "rooms": [ "room_warden_hall", "room_secret_passage" ],
+    "locked": 1,
+    "key": "item_metal_figurine"
+  },
+  "entrypoint_secretpassage_staircasetower": {
+    "name": "Wooden bookcase",
+    "description": "Another bookcase. This is probably the end of the passage,I need to be careful.",
+    "description2": "I wonder how many people know about this secret passage.",
+    "rooms": [ "room_secret_passage", "room_staircase_tower" ],
+    "locked": 0,
+    "key": ""
+  },
+   "entrypoint_wardenHall_courtyard": {
+    "name": "Oak door",
+    "description": "You look through the window in the door and see the courtyard.",
+    "description2": "Door to the warden's hall",
+    "rooms": ["room_warden_hall","room_courtyard" ],
+    "locked": 0,
+    "key": ""
+  },
+  "entrypoint_courtyard_gardens": {
+    "name": "Vine covered gate",
+    "description": "You can see the gardens from here.",
+    "description2": "This will lead me back to the courtyard.",
+    "rooms": [ "room_courtyard", "room_gardens" ],
+    "locked": 0,
+    "key": ""
+  },
+  "entrypoint_courtyard_entrancehall": {
+    "name": "Barred doors",
+    "description": "These big doors must be the entrance to the castle",
+    "description2": "If I remember correclty these will be bring me back to the courtyard.",
+    "rooms": [ "room_courtyard", "room_entrance_hall" ],
+    "locked": 1,
+    "key": "item_castle_keys"
+  },
+  "entrypoint_entrancehall_greathall": {
+    "name": "Old oak door",
+    "description": "You can tell this is the door to the great hall from the lingering smell of food",
+    "description2": "This leads back to the entrance hall.",
+    "rooms": [ "room_entrance_hall", "room_great_hall" ],
+    "locked": 0,
+    "key": ""
+  },
+  "entrypoint_greathall_kitchens": {
+    "name": "Wooden door",
+    "description": "The smell of food coming from this door is even greater than before, these must be the kitchens",
+    "description2": "Only way out is back to the great hall.",
+    "rooms": [ "room_great_hall", "room_kitchens" ],
+    "locked": 0,
+    "key": ""
+  },
+  "entrypoint_entrancehall_staircasetower": {
+    "name": "Oak door",
+    "description": "You peak through the little window in the door and see only stairs",
+    "description2": "Looks like the entrance hall is still empty",
+    "rooms": [ "room_entrance_hall", "room_staircase_tower" ],
+    "locked": 1,
+    "key": "item_staircase_key"
+  },
+  "entrypoint_staircasetower_westwing": {
+    "name": "Blue painted door",
+    "description": "According to the rumors there is a wizard living on this side of the castle",
+    "description2": "I can use this door to go to the other side of the castle.",
+    "rooms": [ "room_staircase_tower", "room_west_wing" ],
+    "locked": 0,
+    "key": ""
+  },
+  "entrypoint_westwing_wizardtower": {
+    "name": "Runed door",
+    "description": "This is clearly the door to the wizard tower.",
+    "description2": "This will lead me back to the west wing.",
+    "rooms": [ "room_west_wing", "room_wizard_tower" ],
+    "locked": 1,
+    "key": "item_rune_of_power"
+  },
+  "entrypoint_staircasetower_eastwing": {
+    "name": "Red painted door",
+    "description": "The royal signs on the door must mean I am on the right track.",
+    "description2": "These will take me back to the staircase tower.",
+    "rooms": [ "room_staircase_tower", "room_east_wing" ],
+    "locked": 0,
+    "key": ""
+  },
+  "entrypoint_eastwing_royalquaters": {
+    "name": "Barred wooden door",
+    "description": "A strong impenetrable door.I must be close to the royal quarters",
+    "description2": "Whenever I need to be in the east wing I need to go through this door.", 
+    "rooms": [ "room_east_wing", "room_royal_quarters" ],
+    "locked": 1,
+    "key": "item_royal_key"
+  },
+  "entrypoint_royalquarters_kingsroom": {
+    "name": "Gilded oak door",
+    "description": "Gold on the door? This will probably take me to the king",
+    "description2": "I wonder what I'll find more in the royal quarters",
+    "rooms": [ "room_royal_quarters", "room_kings_room" ],
+    "locked": 1,
+    "key": "item_royal_key"
+  }
+}

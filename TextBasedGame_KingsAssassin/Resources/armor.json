@@ -1,0 +1,22 @@
+{
+  "armor_leather": {
+    "name": "Leather Armor",
+    "defense": 1,
+    "description": "Armor made from tanned animal hide. It smells a bit funny, but it'd do the job."
+  },
+  "armor_old_iron_armor": {
+    "name": "Iron armor",
+    "defense": 2,
+    "description": "Armor that used to be worn by the old gardener when he was still a guard."
+  },
+  "armor_steel_armor": {
+    "name": "Steel armor",
+    "defense": 3,
+    "description": "Fine armor used by the captain. Well he no longer needs it."
+  },
+   "armor_mystic_plate_armor": {
+    "name": "Mystic plate armor",
+    "defense": 6,
+    "description": "Strong armor enchanted by wizards."
+  }
+}

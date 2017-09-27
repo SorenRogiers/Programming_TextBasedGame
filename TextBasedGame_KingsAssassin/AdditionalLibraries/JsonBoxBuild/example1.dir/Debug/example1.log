@@ -1,0 +1,4 @@
+﻿  Building Custom Rule D:/DAE/2DAE/Libraries/JsonBox-master/CMakeLists.txt
+  CMake does not need to re-run because D:/DAE/2DAE/Libraries/JsonBoxBuild/CMakeFiles/generate.stamp is up-to-date.
+  main.cpp
+  example1.vcxproj -> D:\DAE\2DAE\Libraries\JsonBoxBuild\Debug\example1.exe

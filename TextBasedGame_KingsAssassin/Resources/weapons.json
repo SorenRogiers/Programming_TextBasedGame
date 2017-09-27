@@ -1,0 +1,47 @@
+{
+  "weapon_dagger": {
+    "name": "Dagger",
+    "damage": 2,
+    "description": "A small blade, probably made of iron. Hit them with the pointy end."
+  },
+  "weapon_rat_claw": {
+    "name": "rat claw",
+    "damage": 1,
+    "description": ""
+  },
+  "weapon_longsword": {
+    "name": "Longsword",
+    "damage": 4,
+    "description": "A small blade, probably made of iron. Hit them with the pointy end."
+  },
+  "weapon_goblin_spear": {
+    "name": "Goblin spear",
+    "damage": 2,
+    "description": "A small blade, probably made of iron. Hit them with the pointy end."
+  },
+  "weapon_goblin_dagger": {
+    "name": "Goblin dagger",
+    "damage": 1,
+    "description": "A small blade, probably made of iron. Hit them with the pointy end."
+  },
+  "weapon_goblin_hammer": {
+    "name": "Goblin Hammer",
+    "damage": 5,
+    "description": "A powerful weapon that sacrifices speed for damage per hit."
+  },
+  "weapon_runed_sword": {
+    "name": "Runed sword",
+    "damage": 6,
+    "description": "A powerful ancient weapon,Strengthened by many wizards."
+  },
+  "weapon_mystic_sword": {
+    "name": "Mystic sword",
+    "damage": 9,
+    "description": "A powerful ancient weapon,Strengthened by many wizards."
+  },
+  "weapon_Assassins_blade": {
+    "name": "Assassins blade",
+    "damage": 9,
+    "description": "A highly efficient weapon."
+  }
+}
